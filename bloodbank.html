@@ -5,19 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blood Bank</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css" >
 
   </head>
 <body>
-  <nav>
+  <!--<nav>
     <div style="position: sticky;" class="nav-wrapper">
-      <!--<a href=""><img src="images/blood_logo.png" style="width:65px; height: 65px;"></a>-->
       <a href="" class="center brand-logo">Blood Bank</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="" class="waves-effect waves-light btn">Log in</a></li>
@@ -26,11 +21,19 @@
       </ul>
     </div>
   </nav>
-
+-->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" style="font-size:35px; letter-spacing: 0.2px; font-weight: 600;">BLOOD BANK</a>
+  <form class="form-inline">
+    <button class="btn btn-outline-success mr-3" type="submit">Login</button>
+    <div class=""></div>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Become A Donor</button>
+  </form>
+</nav>
   <div class="pimg1">
     <div class="ptext">
       <!--<span class="border">-->
-        <div id="nav">
+        <div style="background-color: rgba(0, 0, 0, 0.65);letter-spacing: 0.2em;font-size: 0.25em;">
    <div id="navigation-bar">
      <ul>
        <li><a href="#"><i class="fa fa-home"></i><span>Home </span></a></li>
@@ -40,11 +43,38 @@
  	  <li><a href="#"><i class="fa fa-rss"></i> <span>Health Centers</span></a></li>
      </ul>
    </div>
-
-   </div>
-<!--
- </span> -->
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="display: inline-flex;letter-spacing: 0.05em;align-items: normal;margin-top: 16.7em;background-color: rgba(0,0,0,0.9);color: var(--light)">
+    <span class="blood-group" style="margin-top:0.5em;font-size: 12px;line-height: 1.2em;">Find Your<br>Blood Group</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="margin-right: 10px;
+                margin-left: 10px;">Blood Group<span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" style="overflow-x: hidden;
+                max-height: 6em;
+                border-radius: 5px;
+                font-weight: bolder;">
+                    <li>A+</li>
+                    <li>B+</li>
+                    <li>AB+</li>
+                    <li>O+</li>
+                    <li>A-</li>
+                    <li>B-</li>
+                    <li>AB-</li>
+                    <li>O-</li>
+                </ul>
+            </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Enter Your Location" aria-label="Search" style="border-radius: 5em;">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
+  </nav>
+</div>
   </div>
 
   <section class="section section-light">
@@ -90,10 +120,6 @@
 
     </div>
 
-
-
-
-
   </section>
 
   <div class="pimg2">
@@ -127,6 +153,8 @@
          </div>
        </footer>
   </section>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
