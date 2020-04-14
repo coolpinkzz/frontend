@@ -252,6 +252,8 @@ li {
   color: #ffc400;
 }
 @media only screen and (min-width: 993px)
-.row .col.offset-l2 {
+{.row .col.offset-l2 {
   margin: 0;
 }
+}
+
