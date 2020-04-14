@@ -93,7 +93,7 @@ nav .abc{
 }
 
 .pimg2{
-  background-image:url('../img/donor_1.jpg');
+
   min-height:500px;
 }
 
@@ -243,6 +243,34 @@ li {
     font-family: Georgia;
 
 }
+/* table for blood donor and Request*/
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color: white;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+
+
+
 .pimg-login-button .btn:hover{
   color:white;
   background-color: black;
@@ -256,4 +284,3 @@ li {
   margin: 0;
 }
 }
-
